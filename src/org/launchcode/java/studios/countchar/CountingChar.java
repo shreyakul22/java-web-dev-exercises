@@ -19,7 +19,6 @@ public class CountingChar {
                 charCountsMap.put(oneLetter, 1);
             }
         }
-
         for (Map.Entry<Character, Integer> entry: charCountsMap.entrySet()) {
             System.out.println(entry.getKey() + " : " + entry.getValue());
         }
